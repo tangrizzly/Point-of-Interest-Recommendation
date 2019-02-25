@@ -17,4 +17,8 @@ The datasets are from the work "Quan Yuan, Gao Cong, Zongyang Ma, Aixin Sun, Nad
 - (Unmodified) **GEOIE:** *Wang, Hao, et al. "Exploiting POI-Specific Geographical Influence for Point-of-Interest Recommendation." IJCAI. 2018.*
 - **Distance2Pre:** *Q Cui, Y Tang, S Wu, L Wang. "Distance2Pre: Predict the Next Point-of-Interest via Mining Personalized Spatial Preference". 2019.*
 
+## Usage
 
+1. Download datasets to `./poidata/Foursquare` or `./poidata/Gowalla` respectively
+2. Run the file `./poidata/extract_whole_user_buys.py` to extract poi sequences
+3. Run the file `prog_xxx.py`to train specific model.
